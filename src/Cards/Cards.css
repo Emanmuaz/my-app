@@ -1,0 +1,41 @@
+.container {
+    padding: 20px;
+    font-family: Arial , sans-serif;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+    max-width: fit-content;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
